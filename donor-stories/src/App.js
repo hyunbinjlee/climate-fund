@@ -1,12 +1,9 @@
-import React from 'react';
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import DonorSubmit from './pages/DonorSubmit';
-import AdminDashboard from './pages/AdminDashboard';
+import DonorSubmit from "./pages/DonorSubmit";
+import AdminDashboard from "./pages/AdminDashboard";
+import UserProfiles from "./pages/UserProfiles";
 
 function App() {
   return (
@@ -14,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/submit" element={<DonorSubmit />} />
         <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/profiles" element={<UserProfiles />} />
         <Route path="/" element={<DonorSubmit />} />
       </Routes>
     </BrowserRouter>

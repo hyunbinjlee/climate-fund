@@ -1,0 +1,22 @@
+.profile-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+  }
+  
+  .profile-info {
+    padding: 10px;
+  }
+  

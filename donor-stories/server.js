@@ -16,6 +16,9 @@ app.use(express.static(path.join(__dirname, 'build')));
 // Use the donors router for requests to '/api/donors'
 app.use('/api/donors', donorsRouter);
 
+// Serve static files from uploads
+app.use('/uploads', express.static('uploads'));
+
 // Serve the React application
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
