@@ -1,0 +1,47 @@
+/* DonorSubmit.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fa;
+  }
+  
+  .form-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limits the width of the form box */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; /* Centers the children horizontally */
+  }
+  
+  input[type="text"],
+textarea,
+input[type="file"] {
+  width: 100%; /* Makes input take the full width of the form-box */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Full-width button */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
