@@ -69,7 +69,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Your Name – [hyunbinlee@u.northwestern.edu]
 
-Project Link: placeholder
+Project Link: [https://github.com/hyunbinjlee/mock-climate-fund/tree/main/donor-stories]
 
 ## Acknowledgements
 - [Node.js](https://nodejs.org/)
