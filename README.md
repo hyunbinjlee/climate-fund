@@ -1,7 +1,10 @@
 # Donor Stories Application
 
+## **NOTE**
+This application is a mock of the Evanston Climate Fund project, which I worked on in Spring 2024, and you can find [here](https://github.com/civil-society/climate-fund)! It uses real data from Firestore and doesn't use a React frontend.
+
 ## Overview
-The Donor Stories application allows users to submit their profiles, including a name, a bio, and an image, to acknowledge their contributions to the Evanston Climate Fund. The application consists of a React frontend and an Express backend that handles API requests and serves the React application.
+The Donor Stories application allows users to submit their profiles, including a name, a bio, and an image, to acknowledge their contributions to the Evanston Climate Fund. The application consists of a React frontend and an Express backend that handles API requests and serves the React application. 
 
 ## Features
 - **Donor Submission**: Donors can submit their profiles via a form.
